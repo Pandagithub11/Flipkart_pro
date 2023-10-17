@@ -13,7 +13,7 @@ export const products = [
             discount: '47%'
         },
         quantity: 1,
-        description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
+        description: 'Resolution refers to the maximum number of pixels a screen can display.',
         discount: 'Extra 10% Off', 
         tagline: 'Deal of the day' 
     },
@@ -84,14 +84,14 @@ export const products = [
             discount: '40%'
         },
         quantity: 1,
-        description: '',
+        description: 'zzzzzzzzzzzzzzzzz',
         discount: 'From ₹499', 
         tagline: 'Graphic Card Bolte' 
     },
     { 
         id: 'product6',
-        url: 'https://www.discomp.cz/oem-power-adapter-12v-1a-for-routerboard-alix_ie314311.jpg',
-        detailUrl: 'https://www.discomp.cz/oem-power-adapter-12v-1a-for-routerboard-alix_ie314311.jpg', 
+        url: 'https://5.imimg.com/data5/YC/OB/MY-38795669/hp-laptop-adapter-500x500.jpeg',
+        detailUrl: 'https://5.imimg.com/data5/YC/OB/MY-38795669/hp-laptop-adapter-500x500.jpeg', 
         title: {
             shortTitle: 'Adapter',
             longTitle: 'Adapter 300 mm Ultra High Speed 3 Blade Table Fan  (Black, Pack of 1)'

@@ -92,7 +92,7 @@ const Container= styled(Grid)(({ theme})=> ({
 }))
 const RightContainer=styled(Grid)`
 margin-top:50px;
-padding-left:250px;
+padding-left:200px;
 `
 
 
@@ -124,7 +124,7 @@ function DetailView() {
             <RightContainer item lg={8} md={8} sm={8} xs={12}>
                 <ProductDetail product={product} />
             </RightContainer>
-            <div style={{paddingLeft:270}}>
+            <div style={{paddingLeft:300}}>
             <Fooooter/>
           </div>
           </Container>

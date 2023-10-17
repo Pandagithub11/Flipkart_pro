@@ -1,21 +1,22 @@
 
 
 export const navData = [
-    { url: 'https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100', text: 'Top Offers' },
-    { url: 'https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100', text: 'Grocery' },
-    { url: 'https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100', text: 'Mobile' },
-    { url: 'https://rukminim1.flixcart.com/flap/128/128/image/82b3ca5fb2301045.png?q=100', text: 'Fashion' },
+    // { url: 'https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100', text: 'Top Offers' },
+    { url: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6331/6331502_sa.jpg', text: 'HardDisk' },
+    { url: 'https://tse1.mm.bing.net/th?id=OIP.T1SZTeNPKexF2FMwYPg6twHaHa&pid=Api&P=0&h=180', text: 'Mouse' },
+    { url: 'https://www.bhphotovideo.com/images/images1000x1000/intel_bx80646i54690k_core_i5_4690k_processor_1060511.jpg', text: 'Processor' },
+  
     { url: 'https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100', text: 'Electronics' },
-    { url: 'https://rukminim1.flixcart.com/flap/128/128/image/ee162bad964c46ae.png?q=100', text: 'Home' },
+    { url: 'https://http2.mlstatic.com/pen-drive-8gb-sandisk-D_NQ_NP_625133-MLB25849296787_082017-F.jpg', text: 'PenDrive' },
     { url: 'https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100', text: 'Appliances' },
-    { url: 'https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100', text: 'Travel' },
-    { url: 'https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100', text: 'Beauty, Toys & More' }
+    { url: 'https://i5.walmartimages.com/asr/0eff0afa-4df7-4cc6-8db8-3d89e4e4f210.739169e90f698abb173f3dd03dce2437.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff', text: 'Speaker' },
+    { url: 'https://i5.walmartimages.com/asr/a194abab-5fec-41d1-944a-6ff368479bac.ae5ac4068f92063a5dae671a42903d03.jpeg', text: 'Monitor' }
 ];
 
 
 export const bannerData = [
     // { id: 1, url: 'https://rukminim1.flixcart.com/flap/3376/560/image/d117a62eb5fbb8e1.jpg?q=50' },
-    { id: 1, url: 'https://www.42u.com/wp-content/uploads/server-accessories-banner.png' },
+    { id: 1, url: 'https://shop.orange.eg/content/images/uploaded/eShopBanners_ComputerSupplies_EN.jpg' },
     { id: 2, url: 'https://i.pinimg.com/originals/38/fb/2f/38fb2f7a565a32ce7e46b99240d294a2.jpg' },
     { id: 3, url: 'https://img.freepik.com/free-vector/happy-diwali-sale-banner-with-discount-details-pink-background_1017-39845.jpg?w=1380&t=st=1697398902~exp=1697399502~hmac=cd8319250c10148a7e0b0f383f50bb7835c195601e2483fe1c315b52d2cb7aab' },
     { id: 4, url: 'https://img.freepik.com/free-vector/modern-style-black-friday-sale-banner-social-post_1017-41085.jpg?w=1380&t=st=1697399523~exp=1697400123~hmac=5ebf4bb33ebe6011092cad81b6db20b0fcb9e58bef41e583daeba703b9ca9907' }
@@ -33,12 +34,12 @@ export const products = [
             longTitle: 'Acer Monitor X5 Pro'
         }, 
         price: {
-            mrp: 1195,
+            mrp: 5999,
             cost: 625,
             discount: '47%'
         },
         quantity: 1,
-        description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
+        description: 'Resolution refers to the maximum number of pixels a screen can display',
         discount: 'Extra 10% Off', 
         tagline: 'Deal of the day' 
     },
@@ -57,7 +58,8 @@ export const products = [
         },
         quantity: 1,
         description: 'Sexy wala mouse he re ', 
-        tagline: 'Dragon Mouse' 
+        discount: 'Extra 10% Off', 
+        tagline: 'Grab It' 
     },
     { 
         id: 'product3',
@@ -109,15 +111,15 @@ export const products = [
             discount: '40%'
         },
         quantity: 1,
-        description: '',
+        description: 'xxxxxxxxxxxxxxxxxxxx',
         discount: 'From ₹499', 
-        tagline: 'Graphic Card Lo aur aapne maro' 
+        tagline: 'Deal of the Day' 
     },
 
     { 
         id: 'product6',
-        url: 'https://www.discomp.cz/oem-power-adapter-12v-1a-for-routerboard-alix_ie314311.jpg',
-        detailUrl: 'https://www.discomp.cz/oem-power-adapter-12v-1a-for-routerboard-alix_ie314311.jpg', 
+        url: 'https://5.imimg.com/data5/YC/OB/MY-38795669/hp-laptop-adapter-500x500.jpeg',
+        detailUrl: 'https://5.imimg.com/data5/YC/OB/MY-38795669/hp-laptop-adapter-500x500.jpeg', 
         title: {
             shortTitle: 'Adapter',
             longTitle: 'Portable 300 mm Ultra High Speed 3 Blade Table Fan  (Black, Pack of 1)'
@@ -160,7 +162,9 @@ export const products = [
 export const imageURL = [
     // 'https://wallpapercave.com/wp/wp5599652.jpg',
     'https://img.freepik.com/free-vector/cyber-monday-web-banners_23-2147933476.jpg?w=740&t=st=1697397273~exp=1697397873~hmac=52bbc848cb6363c1574b90da1f577e136be6d108c682a9647c6dec938e40bb8c',
-    'https://thumbs.dreamstime.com/b/winter-sale-vector-banner-design-discount-text-white-snowflakes-red-tag-element-blue-background-illustration-155896891.jpg',
+    // 'https://thumbs.dreamstime.com/b/winter-sale-vector-banner-design-discount-text-white-snowflakes-red-tag-element-blue-background-illustration-155896891.jpg',
     // 'https://stocknews.com/wp-content/uploads/2021/02/shutterstock_674691853-scaled.jpg'
+    // 'https://img.freepik.com/premium-vector/winter-sale-banner-template-with-snow-flakes-ice-snow-shopping-sale-end-winter-vector_612834-350.jpg?w=740',
+    'https://img.freepik.com/premium-vector/discount-winter-banner-with-red-ribbon-with-snow-isolated-blue_103688-327.jpg?w=740',
     'https://img.freepik.com/premium-photo/central-computer-processor-integrated-microchip-circuit-board_634677-652.jpg?w=740'
 ];

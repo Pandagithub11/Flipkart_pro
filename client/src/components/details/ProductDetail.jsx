@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography,Box,Table , TableBody, TableCell, TableRow ,styled} from '@mui/material';
 import {LocalOffer as Badge} from '@mui/icons-material';
-import Fooooter from '../footer/Fooooter';
+// import Fooooter from '../footer/Fooooter';
 
 
 
@@ -44,7 +44,7 @@ function ProductDetail({product}) {
     <Typography>{product.title.longTitle}</Typography>
     <Typography style={{marginTop:5, color:'#878787', fontSize: 14}}>
                 8 Ratings & 1 Reviews
-                <Box component="span"><img src={fassured} style={{width:77, marginLeft:20}} /></Box>
+                {/* <Box component="span"><img src={fassured} style={{width:77, marginLeft:20}} /></Box> */}
         </Typography>
                 <Typography>
                   <Box component="span" style={{ fontSize:28}}>₹{product.price.cost}</Box>&nbsp;&nbsp;&nbsp;
@@ -55,9 +55,9 @@ function ProductDetail({product}) {
     <SmallText>
         <Typography><StyleBadge/>Get extra 20% off upto ₹50 on 1 item(s) T&C</Typography>
         <Typography><StyleBadge/>Get extra 13% off (price inclusive of discount) T&C</Typography>
-        <Typography><StyleBadge/>Sign up for Flipkart Pay Later and get Flipkart Gift Card worth ₹100*  Know More</Typography>
+        
         <Typography><StyleBadge/>Buy 2 items save 5%;Buy 3 or more save 10% T&C</Typography>
-        <Typography><StyleBadge/>5% Cashback on Flipkart Axis Bank Card</Typography>
+        <Typography><StyleBadge/>5% Cashback on  Axis Bank Card</Typography>
         <Typography><StyleBadge/>No Cost EMI on Bajaj Finserv EMI Card on cart value above ₹2999 T&C</Typography>
     </SmallText>
 

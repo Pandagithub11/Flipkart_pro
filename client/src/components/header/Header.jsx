@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {AppBar , Toolbar, Box,Typography,IconButton,Drawer,List,ListItem,styled} from '@mui/material';
 import {Menu} from '@mui/icons-material';
-import myImage from '../Images/pic.png';
+import myImage from '../Images/logg1.png';
 
 
 // Import
@@ -16,7 +16,7 @@ height:55px;
 `;
 
 const Component=styled(Link)`
-margin-left:12%;
+margin-left:9%;
 line-height:0;
 text-decoration:none;
 color:inherit;
@@ -103,7 +103,7 @@ function Header() {
 
 
         <Component to='/'>
-            <img src={myImage} alt="logo" style={{ width:45  }}/>
+            <img src={myImage} alt="logo" style={{ width:140  }}/>
               <Box style={{display: 'flex'}}>
                 {/* <SubHeading>Explore&nbsp;
                   <Box component="span" style={{color: '#FFE500'}}> Plus</Box>
